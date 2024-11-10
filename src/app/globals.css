@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #0a0a0a;
   --foreground: #171717;
 }
 
@@ -15,7 +15,13 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  html, body {
+    background-color: #121212;
+    color: #ffffff; /* Set default text color to white for readability */
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevents horizontal scrolling if any elements overflow */
+  }
+  
 }

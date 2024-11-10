@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+//const colors = require("tailwindcss/colors");
 
 const config: Config = {
   content: [
@@ -11,6 +12,11 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+       // primary: colors.purple,
+       // secondary: colors.pink,
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(circle, var(--tw-gradient-stops))',
       },
     },
   },
